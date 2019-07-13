@@ -16,8 +16,10 @@ public class Buggy1 {
 	    {
 	        Input.print("n is ");
 	        n = Input.get_int();
+	        //falta un decrementador de lo contrario es un ciclo infinito
+	        //n--;
 	    }
-	    while (n > 0);
+	    while (n >= 0); //falta el igual while( n >=0);
 	    return n;
 	}
 }
